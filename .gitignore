@@ -1,0 +1,21 @@
+node_modules/
+.cache/
+.env
+.env.*
+!.env.example
+*.log
+*.backup.*
+*.before-*
+*-evidence.json
+title-icon-provenance.json
+contact-reference.png
+*.local.*
+.DS_Store
+Thumbs.db
+
+# Generated from src/ and css/ by npm start or npm run build
+/app.js
+/style.css
+
+# README images are linked separately
+/docs/screenshots/
